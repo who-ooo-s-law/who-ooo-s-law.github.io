@@ -51,7 +51,7 @@ body {
     position: absolute;
     right: -300px;
     top: 50%;
-    transform: translateY(20%);
+    transform: translateY(50%);
     width: 479px;
     height: 367px;
     background: url(../images/mainDecR.png) no-repeat center center;
@@ -60,7 +60,7 @@ body {
 
 .header {
     text-align: center;
-    margin: 90px 0 20px;
+    margin: 150px 0 20px;
 }
 
 .cha {
@@ -155,7 +155,7 @@ body {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 991px) {
 
     .container::before,
     .container::after {
@@ -191,6 +191,10 @@ body {
 }
 
 @media (max-width: 480px) {
+    .header {
+        margin: 132px 0 20px;
+    }
+
     .button {
         margin: 10px 0;
     }
