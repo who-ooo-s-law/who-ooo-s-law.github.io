@@ -155,14 +155,6 @@ body {
     }
 }
 
-@media (max-width: 991px) {
-
-    .container::before,
-    .container::after {
-        display: none;
-    }
-}
-
 @media (max-width: 768px) {
     .subtitle {
         font-size: 16px;
@@ -197,5 +189,17 @@ body {
 
     .button {
         margin: 10px 0;
+    }
+
+    .container::before {
+        left: -208px;
+        scale: 0.5;
+        z-index: 1;
+    }
+
+    .container::after {
+        right: -226px;
+        scale: 0.5;
+        top: 59%;
     }
 }
